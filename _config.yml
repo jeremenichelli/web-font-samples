@@ -5,5 +5,6 @@ baseurl: "/web-font-samples"
 url: "https://jeremenichelli.github.io"
 
 # Build settings
+port: 2000
 markdown: redcarpet
 highlighter: pygments

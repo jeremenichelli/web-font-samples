@@ -5,19 +5,30 @@
 
     <body>
 
-    {% include header.html %}
-
-    <section>
-      <div class="container">
-
-        {% include lorem.html %}
-
+      <div class="performance-toast">
+        <div class="container">
+          <p class="performance-toast-content"></p>
+        </div>
       </div>
-    </section>
 
-    {% include footer.html %}
+      {% include header.html %}
 
-    <!-- LOAD RESOURCES IN CONTENT -->
-    {{ content }}
+      <section>
+        <div class="container">
+
+          {% include lorem.html %}
+
+        </div>
+      </section>
+
+      {% include footer.html %}
+
+      <!-- LOAD RESOURCES IN CONTENT -->
+      <script>
+        window.Site = {
+          performance : performance ? performance.now() : Date.now()
+        };
+      </script>
+      {{ content }}
     </body>
 </html>

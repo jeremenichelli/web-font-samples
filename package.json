@@ -2,9 +2,6 @@
   "name": "web-font-samples",
   "version": "1.0.0",
   "description": "Examples of pages using different libraries to load web fonts",
-  "scripts": {
-    "test": "gulp test"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jeremenichelli/web-font-samples.git"
