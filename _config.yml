@@ -1,0 +1,11 @@
+# Site settings
+title: Web Font Loading Libraries
+description: "Examples of pages using different libraries to load web fonts"
+baseurl: "/web-font-samples"
+url: "https://jeremenichelli.github.io"
+
+# Build settings
+markdown: redcarpet
+highlighter: pygments
+permalink: pretty
+port: 2000

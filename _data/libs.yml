@@ -1,0 +1,9 @@
+- title: fontfaceobserver
+  dev: bramstein
+  repo: fontfaceobserver
+- title: fontfaceonload
+  dev: zachleat
+  repo: fontfaceonload
+- title: WebFontLoader
+  dev: typekit
+  repo: webfontloader

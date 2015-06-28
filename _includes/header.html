@@ -1,0 +1,22 @@
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="column column-3">
+                <h1>
+                    {% if page.title %}
+                        <span>{{ site.title }}</span> {{ page.title }}
+                    {% else %}
+                        {{ site.title }}
+                    {% endif %}
+                </h1>
+                <p class="description">
+                    {% if page.description %}
+                        {{ page.description }}
+                    {% else %}
+                        {{ site.description }}
+                    {% endif %}
+                </p>
+            </div>
+        </div>
+    </div>
+</header>
