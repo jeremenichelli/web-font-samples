@@ -4,6 +4,6 @@
 - title: fontfaceonload
   dev: zachleat
   repo: fontfaceonload
-- title: WebFontLoader
+- title: webfontloader
   dev: typekit
   repo: webfontloader
